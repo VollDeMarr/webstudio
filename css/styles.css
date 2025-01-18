@@ -1,0 +1,36 @@
+:root{
+    --accent-color: #2196F3;
+}
+body{
+    color: #757575;
+}
+h1,h2,h3,h4{
+    color: #212121;
+}
+ul {
+  list-style: none;  
+}
+.logo {
+    color: #000000;
+}
+.logo-accent {
+  color:  var(--accent-color);
+}
+
+
+.nav-list {
+    color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+.contact-list {
+    color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+color: var(--accent-color);
+}
