@@ -3,6 +3,10 @@
 }
 body{
     color: #757575;
+
+    font-family: Roboto;
+    letter-spacing: 0.03em;
+    font-weight: 400;
 }
 h1,h2,h3,h4{
     color: #212121;
@@ -10,8 +14,13 @@ h1,h2,h3,h4{
 ul {
   list-style: none;  
 }
+a {
+    text-decoration: none;
+}
 .logo {
     color: #000000;
+    font-family: Raleway;
+    font-weight: 700;
 }
 .logo-accent {
   color:  var(--accent-color);
@@ -20,6 +29,7 @@ ul {
 
 .nav-link {
     color: #212121;
+    font-weight: 500;
 }
 .current-pg {
     color: var(--accent-color);
@@ -30,6 +40,7 @@ ul {
 }
 .contact-list {
     color: #757575;
+    font-weight: 500;
 }
 
 .contact-link:hover,
@@ -44,6 +55,64 @@ color: var(--accent-color);
 
 .btn:hover,
 .btn:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.hero {
+    background-color: #2F303A;
+}
+.hero-hedder {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 32px;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+.footer .logo {
+    color: #FFFFFF;
+}
+
+/*           PORTFOLIO         */
+
+.card-header {
+    font-size: 18px;
+    color: #212121;
+}
+
+.card-text{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.portfolio-btn {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121;
+    background-color: #F5F4FA;
+    border: none;
+    padding: 6px 22px;
+    border-radius: 4px;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
 }
