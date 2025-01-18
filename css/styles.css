@@ -18,10 +18,12 @@ ul {
 }
 
 
-.nav-list {
+.nav-link {
     color: #212121;
 }
-
+.current-pg {
+    color: var(--accent-color);
+}
 .nav-link:hover,
 .nav-link:focus {
     color: var(--accent-color);
@@ -33,4 +35,15 @@ ul {
 .contact-link:hover,
 .contact-link:focus {
 color: var(--accent-color);
+}
+
+.btn {
+    color: #212121;
+    background-color: #F5F4FA;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
 }
