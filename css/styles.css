@@ -40,6 +40,10 @@ a {
 }
 /* --------------HEADER----------------*/
 
+.header {
+  display: flex;
+}
+
 .logo {
   color: #000000;
   font-family: Raleway;
@@ -49,6 +53,9 @@ a {
   color: var(--accent-color);
 }
 
+.nav-list {
+  display: flex;
+}
 .nav-link {
   color: #212121;
   font-weight: 500;
@@ -66,6 +73,7 @@ a {
 .contact-list {
   color: #757575;
   font-weight: 500;
+  display: flex;
 }
 
 .contact-link:hover,
@@ -99,7 +107,7 @@ a {
 .hero-btn {
   font-family: Roboto;
   font-weight: 700;
-  font-size: 16;
+  font-size: 16px;
   color: #ffffff;
   background-color: var(--accent-color);
   border: none;
@@ -108,6 +116,10 @@ a {
 }
 
 /* ------------FEATCHERS------------ */
+
+.featchers-list {
+  display: flex;
+}
 
 .featchers-header {
   font-size: 14px;
@@ -119,6 +131,18 @@ a {
 
 .section-header {
   font-size: 36px;
+}
+
+/* -------------WORK----------------- */
+
+.work-list{
+  display: flex;
+}
+
+/* -------------TEAMMATES------------ */
+
+.teammates-list{
+display: flex;
 }
 
 /* -------------FOOTER--------------- */
@@ -158,3 +182,12 @@ a {
   color: #ffffff;
   background-color: var(--accent-color);
 }
+
+ .btn-list {
+  display: flex;
+ }
+
+ .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+ }
