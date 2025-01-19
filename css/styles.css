@@ -10,9 +10,13 @@ body{
 }
 h1,h2,h3,h4{
     color: #212121;
+    margin: 0;
+    padding: 0;
 }
-ul {
+ul, p{
   list-style: none;  
+  margin: 0;
+  padding: 0;
 }
 a {
     text-decoration: none;
@@ -115,4 +119,11 @@ color: var(--accent-color);
 .portfolio-btn:focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
