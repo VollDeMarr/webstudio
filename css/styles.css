@@ -42,23 +42,35 @@ a {
 
 .header {
   display: flex;
+  align-items: center;
 }
 
 .logo {
   color: #000000;
   font-family: Raleway;
   font-weight: 700;
+  font-size: 26px;
 }
 .logo-accent {
   color: var(--accent-color);
 }
 
+.header > .logo {
+  margin-right: 93px;
+}
 .nav-list {
   display: flex;
 }
 .nav-link {
   color: #212121;
   font-weight: 500;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.nav-li + .nav-li {
+  margin-left: 50px;
 }
 
 .current-pg {
